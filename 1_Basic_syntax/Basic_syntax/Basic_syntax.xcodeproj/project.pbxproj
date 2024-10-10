@@ -11,6 +11,7 @@
 		469B57552CB7EFDB005B3704 /* 02_Syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02_Syntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		469B57562CB7F11E005B3704 /* 03_Property_getters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 03_Property_getters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		469B57572CB7F1B8005B3704 /* 04_Opaque_types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 04_Opaque_types.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		469B57582CB7F28C005B3704 /* 05_View_containers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 05_View_containers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -21,6 +22,7 @@
 				469B57552CB7EFDB005B3704 /* 02_Syntax.playground */,
 				469B57562CB7F11E005B3704 /* 03_Property_getters.playground */,
 				469B57572CB7F1B8005B3704 /* 04_Opaque_types.playground */,
+				469B57582CB7F28C005B3704 /* 05_View_containers.playground */,
 			);
 			sourceTree = "<group>";
 		};

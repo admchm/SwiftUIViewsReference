@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		469B57542CB7E5C3005B3704 /* 1_Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Basics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		469B574D2CB7E581005B3704 = {
+			isa = PBXGroup;
+			children = (
+				469B57542CB7E5C3005B3704 /* 1_Basics.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		469B574E2CB7E581005B3704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 469B57512CB7E581005B3704 /* Build configuration list for PBXProject "Basic_syntax" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469B574D2CB7E581005B3704;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		469B57522CB7E581005B3704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		469B57532CB7E581005B3704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469B57512CB7E581005B3704 /* Build configuration list for PBXProject "Basic_syntax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469B57522CB7E581005B3704 /* Debug */,
+				469B57532CB7E581005B3704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469B574E2CB7E581005B3704 /* Project object */;
+}

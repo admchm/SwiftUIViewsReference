@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		469B57542CB7E5C3005B3704 /* 1_Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1_Basics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		469B57542CB7E5C3005B3704 /* 01_Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01_Basics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		469B57552CB7EFDB005B3704 /* 02_Syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02_Syntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		469B574D2CB7E581005B3704 = {
 			isa = PBXGroup;
 			children = (
-				469B57542CB7E5C3005B3704 /* 1_Basics.playground */,
+				469B57542CB7E5C3005B3704 /* 01_Basics.playground */,
+				469B57552CB7EFDB005B3704 /* 02_Syntax.playground */,
 			);
 			sourceTree = "<group>";
 		};

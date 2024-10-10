@@ -9,6 +9,8 @@
 /* Begin PBXFileReference section */
 		469B57542CB7E5C3005B3704 /* 01_Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01_Basics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		469B57552CB7EFDB005B3704 /* 02_Syntax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02_Syntax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		469B57562CB7F11E005B3704 /* 03_Property_getters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 03_Property_getters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		469B57572CB7F1B8005B3704 /* 04_Opaque_types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 04_Opaque_types.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -17,6 +19,8 @@
 			children = (
 				469B57542CB7E5C3005B3704 /* 01_Basics.playground */,
 				469B57552CB7EFDB005B3704 /* 02_Syntax.playground */,
+				469B57562CB7F11E005B3704 /* 03_Property_getters.playground */,
+				469B57572CB7F1B8005B3704 /* 04_Opaque_types.playground */,
 			);
 			sourceTree = "<group>";
 		};

@@ -11,13 +11,10 @@ struct TemplateApp: App {
     var body: some Scene {
         WindowGroup {
             ScrollView {
-                VStack {
+                VStack(spacing: 40) {
                     ScopeAndOverriding()
-                        .padding()
                     SFSymbols()
-                        .padding()
                     Layers()
-                        .padding()
                 }
             }
         }

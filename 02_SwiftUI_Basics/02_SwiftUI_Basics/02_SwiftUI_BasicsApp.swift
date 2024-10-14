@@ -12,6 +12,8 @@ struct TemplateApp: App {
         WindowGroup {
             ScrollView {
                 VStack {
+                    ScopeAndOverriding()
+                        .padding()
                     SFSymbols()
                         .padding()
                     Layers()

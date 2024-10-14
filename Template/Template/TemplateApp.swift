@@ -11,7 +11,11 @@ import SwiftUI
 struct TemplateApp: App {
     var body: some Scene {
         WindowGroup {
-            Title()
+            ScrollView {
+                VStack(spacing: 40) {
+                    Title()
+                }
+            }
         }
     }
 }

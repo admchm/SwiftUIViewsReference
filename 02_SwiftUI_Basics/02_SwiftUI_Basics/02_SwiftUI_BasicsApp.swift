@@ -15,6 +15,7 @@ struct TemplateApp: App {
                     ScopeAndOverriding()
                     SFSymbols()
                     Layers()
+                    Shapes()
                 }
             }
         }

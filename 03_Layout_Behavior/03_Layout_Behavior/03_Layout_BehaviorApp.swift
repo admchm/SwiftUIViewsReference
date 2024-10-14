@@ -13,6 +13,7 @@ struct TemplateApp: App {
             ScrollView {
                 VStack(spacing: 40) {
                     ViewSizes_Pull_In()
+                    ViewSizes_Push_Out()
                 }
             }
         }

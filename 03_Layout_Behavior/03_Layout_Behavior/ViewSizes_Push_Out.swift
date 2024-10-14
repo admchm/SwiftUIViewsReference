@@ -13,7 +13,7 @@ struct ViewSizes_Push_Out: View {
             Text("Layout Behavior")
                 .font(.largeTitle)
             
-            Text("Views that Pull In")
+            Text("Views that Push Out")
                 .foregroundColor(Color.gray)
             
             Text("Some views minimize their frame size so it is only as big as the content within it.")
@@ -22,24 +22,31 @@ struct ViewSizes_Push_Out: View {
                 .padding()
                 .background(Color.purple)
             
-            Image(systemName: "arrow.down.to.line.alt")
-            HStack {
-                Image(systemName: "arrow.right.to.line.alt")
-                Text("Text views pull in")
-                Image(systemName: "arrow.left.to.line.alt")
-            }
-            Image(systemName: "arrow.up.to.line.alt")
-            
-            Text("Test")
-                .frame(maxWidth: .infinity)
-                .foregroundColor(Color.white)
-                .padding()
-                .background(Color.purple)
+            Color.purple
+            // Add 5 layers on top of the color view
+                .overlay(
+                    Image(systemName: "arrow.up.left")
+                        .padding(),
+                    alignment: .topLeading)
+                .overlay(
+                    Image(systemName: "arrow.up.right")
+                        .padding(),
+                    alignment: .topTrailing)
+                .overlay(
+                    Image(systemName: "arrow.down.left")
+                        .padding(),
+                    alignment: .bottomLeading)
+                .overlay(
+                    Image(systemName: "arrow.down.right")
+                        .padding(),
+                    alignment: .bottomTrailing)
+                .overlay(Text("Colors are a Push-Out views"))
         }
-        .font(.title)
+        .font(.largeTitle)
+        .foregroundColor(Color.white)
     }
 }
 
 #Preview {
-    ViewSizes_Pull_In()
+    ViewSizes_Push_Out()
 }

@@ -30,7 +30,7 @@ struct ViewSizes_Pull_In: View {
             }
             Image(systemName: "arrow.up.to.line.alt")
             
-            Text("Test")
+            Text("Pull-in views tend to center themselves within their parent container view.")
                 .frame(maxWidth: .infinity)
                 .foregroundColor(Color.white)
                 .padding()

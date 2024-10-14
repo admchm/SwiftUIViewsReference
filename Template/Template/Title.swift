@@ -14,16 +14,15 @@ struct Title: View {
                 .font(.largeTitle)
             
             Text("Subtitle")
-                .font(.title)
                 .foregroundColor(Color.gray)
             
             Text("Short description of what will be demonstrated goes here")
                 .frame(maxWidth: .infinity)
-                .font(.title)
                 .foregroundColor(Color.white)
                 .padding()
                 .background(Color.blue)
         }
+        .font(.title)
     }
 }
 

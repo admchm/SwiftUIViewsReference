@@ -7,12 +7,12 @@
 import SwiftUI
 
 @main
-struct Layout_BehaviorApp: App {
+struct TemplateApp: App {
     var body: some Scene {
         WindowGroup {
             ScrollView {
-                VStack {
-                    
+                VStack(spacing: 40) {
+                    ViewSizes_Pull_In()
                 }
             }
         }

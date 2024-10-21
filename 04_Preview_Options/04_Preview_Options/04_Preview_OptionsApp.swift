@@ -13,6 +13,8 @@ struct TemplateApp: App {
             ScrollView {
                 VStack(spacing: 40) {
                     Preview_Intro()
+                    Preview_DarkMode()
+                    Preview_CanvasDeviceSettings()
                 }
             }
         }

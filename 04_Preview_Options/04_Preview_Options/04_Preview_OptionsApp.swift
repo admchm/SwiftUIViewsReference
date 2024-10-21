@@ -12,7 +12,7 @@ struct TemplateApp: App {
         WindowGroup {
             ScrollView {
                 VStack(spacing: 40) {
-                    Previews_Intro()
+                    Preview_Intro()
                 }
             }
         }

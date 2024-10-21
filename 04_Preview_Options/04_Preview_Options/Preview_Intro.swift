@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Preview_Intro.swift
 //  04_Preview_Options
 //
 //  Created by Adam Chomicki on 14/10/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Previews_Intro: View {
+struct Preview_Intro: View {
     var body: some View {
         VStack(spacing: 20) {
             Text("Previews")
@@ -21,11 +21,10 @@ struct Previews_Intro: View {
                 .padding()
                 .foregroundColor(Color.white)
                 .background(Color.red)
-        }
-        .font(.title)
+        }.font(.title)
     }
 }
 
 #Preview {
-    Previews_Intro()
+    Preview_Intro()
 }
